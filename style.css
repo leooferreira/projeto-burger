@@ -2,3 +2,20 @@ img {
     display: block;
     width: 80px;
 }
+
+.lanche-1 {
+    display: block;
+    height: 400px;
+    width: 360px
+}
+.lanche-2 {
+    display: block;
+    height: 320px;
+    width: 280px
+}
+
+.lanche-3 {
+    display: block;
+    height: 360px;
+    width: 680px;
+}
