@@ -25,6 +25,7 @@ img {
     border-radius: 5px;
 }
 
+
 .lanche-1 {
     display: block;
     height: 400px;
@@ -47,6 +48,7 @@ img {
     line-height: 1.4;
     font-size: 40px;
     max-width: 350px;
+    color: #fff;
 }
 
 .estrutura {
@@ -74,18 +76,43 @@ img {
 
 .header nav a {
     display: block;
-    padding: 10px;
+    padding:10px;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, .1);
     border-radius: 5px;
-    cursor: pointer;
+    transition: 0.1s;
 }
 
 .header li + li {
     margin-left: 30px;
 }
 
-.header nav:hover {
-    transition: 0.1s;
+.header nav a:hover {
     background: rgba(0, 0, 0, .2);
 }
+
+.sidenav {
+    grid-area: sidenav;
+    background: #fafbfc;
+    padding: 30px;
+}
+
+.sidenav li a {
+    display: block;
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(255, 105, 102, 0.692);
+    transition: 0.1s ease-out;
+    
+}
+
+.sidenav li a:hover {
+    background: #FF6E65;
+}
+
+
