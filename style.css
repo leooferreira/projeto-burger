@@ -29,18 +29,18 @@ img {
 .lanche-1 {
     display: block;
     height: 400px;
-    width: 360px
+    
 }
 .lanche-2 {
     display: block;
     height: 320px;
-    width: 280px
+    
 }
 
 .lanche-3 {
     display: block;
     height: 360px;
-    width: 680px;
+    
 }
 
 .logo {
@@ -76,7 +76,7 @@ img {
 
 .header nav a {
     display: block;
-    padding:10px;
+    padding: 10px;
     color: white;
     font-size: 20px;
     background: #fd8c4057;
@@ -121,7 +121,7 @@ p {
 }
 
 .informacoes p + p {
-    margin-top: 30px;          
+    margin-top: 30px;             
 }
 
 .content {
@@ -210,7 +210,7 @@ span.numero {
 }
 
 .descricao {
-    font-size: 13px;
+    font-size: 14px;
     color: #ff1f27;
     width: 300px;
     
@@ -235,19 +235,11 @@ span.numero {
     color: white;
 }
 
-.ingredientes h3 {
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    position: relative;
-    top: -10px;
-}
-
 .ingredientes li {
     color: white;
     font-family: Courier, monospace;
     font-size: 18px;
-    padding: 15px;   
+    padding: 10px;   
 }
 
 .ingredientes li + li {
