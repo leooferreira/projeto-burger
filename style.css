@@ -70,7 +70,7 @@ img {
     }
 }
 
-@media(max-width: 760px) {
+@media(max-width: 860px) {
     .estrutura {
         grid-template-columns: 100%;
         grid-template-areas: 
@@ -164,13 +164,16 @@ img {
     }
 }
 
-@media(max-width: 760px) {
+@media(max-width: 860px) {
     .sidenav {
         position: relative;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;
     }
+    
+
+    @media(max-width: 760px) {
 
     .sidenav::after {
         content: '→';
@@ -180,6 +183,7 @@ img {
         color: #ff6166d7;
         animation: seta .5s ease-in 0s infinite alternate;
     }
+}
 
     .sidenav ul {
         display: flex;
@@ -216,6 +220,12 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+}
+
+@media(max-width: 600px) {
+    .content {
+        grid-template-columns: auto;
+    }
 }
 
 .coluna-int {
@@ -343,6 +353,20 @@ span.numero {
 .anuncio-item img {
     width: 230px;
     height: 230px;
+}
+
+@media(max-width: 600px) {
+    .anuncio-item img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1200px) {
+    .anuncio-item img {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
 .footer {
